@@ -15,17 +15,14 @@ header {
   width: 100%;
 }
 
-.container {
+.logo {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.black {
   background-color: black;
 }
 
-.logo {
+.logo .container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -36,8 +33,6 @@ header {
 .logo img {
   height: 1.5rem;
   padding:0.41rem 1rem 0.41rem 0.5rem;
-  /* margin: 0 auto; */
-  /* display: inline; */
 }
 
 .logo h3 {
