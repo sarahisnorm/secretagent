@@ -32,7 +32,8 @@ header {
 
 .logo img {
   height: 1.5rem;
-  padding:0.41rem 1rem 0.41rem 0.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
 }
 
 .logo h3 {
@@ -40,4 +41,138 @@ header {
   padding: 0.66rem 0;
   display: inline;
   color: white;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.banner .container {
+  width: 960px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.new {
+  position: relative;
+  top: 9rem;
+  background-color: black;
+  padding: 2rem 3rem;
+  width: 20rem;
+}
+
+.new h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.new h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+}
+
+nav .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  padding: 0.75rem 0;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  padding: 3rem 0;
+}
+
+.item {
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.item img {
+  height: 9rem;
+  padding: 2rem 0;
+  display: block;
+  width: auto;
+}
+
+.wide img {
+  width: 9rem;
+  height: auto;
+  padding: 4.4rem 0;
+}
+
+.item p {
+  text-align: center;
+  padding: 0.5rem 0 ;
+  color: white;
+  background-color: black;
+  display: block;
+  width: 100%;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  padding-bottom: 4rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.info h4 {
+  font-weight: normal;
+  text-align: left;
+  color: white;
+  background-color: black;
+  padding: 1rem 0rem 1rem 2rem;
+  display: block;
+}
+
+.info p {
+  text-align: left;
+  width: 100%;
+  display: block;
+  width: 100%;
+  padding-top: 2px;
 }
