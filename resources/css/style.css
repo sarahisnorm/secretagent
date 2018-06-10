@@ -100,6 +100,10 @@ nav .container {
   text-decoration: none;
 }
 
+.alt-nav {
+  display: none;
+}
+
 main {
   width: 100%;
   background-color: white;
@@ -191,4 +195,78 @@ footer .copyright {
   text-align: left;
   color: white;
   width: 960px;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav span {
+    display: none;
+  }
+
+  .alt-nav {
+    display: block;
+    text-align: center;
+  }
+
+  nav .container {
+    justify-content: center;
+  }
+
+.product-grid .wide {
+    display: none;
+  }
+
+  .item {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .banner .container {
+    top: 10rem;
+  }
+
+  .new {
+    padding: 1rem 2rem;
+  }
+
+  .new h2 {
+    font-size: 0.77rem;
+  }
+
+  .new h1 {
+    font-size: 1rem;
+  }
+
+  .product-grid {
+    width: 90%;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .product-grid .watch{
+    display: none;
+  }
+
+  .contact {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .info {
+    width: 100%
+  }
+
+  .contact .hours {
+    padding-top: 0.5rem;
+  }
+
+  footer .copyright {
+    text-align: center;
+  }
 }
